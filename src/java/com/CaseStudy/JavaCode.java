@@ -11,8 +11,14 @@ import javax.jws.*;
  */
 @WebService
 public class JavaCode {
+     @WebMethod
+    public double mean(double s,double n){
+    double answer=s/n;
+    return answer;}
     @WebMethod
-    public double number(double a,double b){
-    return b;}
+    public double pythagorean(double a,double b){
+    double stepa=(a*a)+(b*b);
+    double stepb=Math.sqrt(stepa);
+    return stepb;}
     
 }
