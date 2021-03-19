@@ -30,4 +30,12 @@ public class JavaCode {
     double answer=3.1415*(r*r);
     return answer;}
     
+     @WebMethod
+     public double triangle(double h, double b){
+     double answer=(h*b)/2;
+     return answer;}
+     @WebMethod
+     public double rectangle(double h, double w){
+     double answer=h*w;
+     return answer;}
 }
