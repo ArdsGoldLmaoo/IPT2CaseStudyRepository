@@ -20,5 +20,14 @@ public class JavaCode {
     double stepa=(a*a)+(b*b);
     double stepb=Math.sqrt(stepa);
     return stepb;}
+     
+     @WebMethod
+    public double circumference(double r){
+    double answer=2*3.1415*r;
+    return answer;}
+    @WebMethod
+    public double areacircle(double r){
+    double answer=3.1415*(r*r);
+    return answer;}
     
 }
